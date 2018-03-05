@@ -10,6 +10,9 @@ STUDENTS: edit this file. Add text that describes your project. Include your nam
 
 Site by Ryan Molinari
 
+https://rmolinari13.github.io/MarsPathfinder/
+
+Information about NASA's Mars Patherfinder mission.
 
 
 
