@@ -92,11 +92,11 @@ body {
 	text-transform: bold;
 	letter-spacing: 0.2em;
 	text-decoration: none;
-	color: #000;
+	color: #eeeeee;
 }
 
 .global-nav a:hover {
-	color: #eeeeee;
+	color: #000;
 }
 
 .opener {
