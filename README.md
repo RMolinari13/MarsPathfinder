@@ -14,6 +14,9 @@ https://rmolinari13.github.io/MarsPathfinder/
 
 Information about NASA's Mars Patherfinder mission.
 
+Text from Wikipedia
+https://en.wikipedia.org/wiki/Mars_Pathfinder
+
 
 
 
