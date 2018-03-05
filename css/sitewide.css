@@ -1,0 +1,141 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/* 
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;		
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #eeeeee;
+	background-image: url(../img/mars.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center top;
+	background-color: #000;
+
+}
+
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area. 
+	If you have more than one container, you are probably doing
+	something wrong. 	
+*/
+.container {
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 1em;
+	margin-left: 0em;
+	width: 100%;
+	padding: 0em;
+	border: none;
+}
+
+.article-text a {
+	text-decoration: none;
+	color: #db1c10;
+}
+
+.article-text a:hover {
+	color: #eeeeee;
+}
+
+.article-text a:visited {
+	color: #ffbfbb;
+}
+
+.global-nav {
+	background: #db1c10;
+}
+
+.global-nav ul {
+	margin: 0 0 0 0;
+	padding: 0 0 0 2rem;
+	max-width: 650px;	
+}
+
+.global-nav li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.global-nav a {
+	display: block;
+	padding: 0.25em 0.75em;
+	font-family: "Raleway", sans-serif;
+	font-size: 0.7rem;
+	text-transform: bold;
+	letter-spacing: 0.2em;
+	text-decoration: none;
+	color: #000;
+}
+
+.global-nav a:hover {
+	color: #eeeeee;
+}
+
+.opener {
+	padding: 1em;
+}
+
+@media (min-width: 600px) {
+	.opener {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap: 2em;
+	padding: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+	max-width: 1200px;
+	}
+
+	.marsp {
+	grid-column: 2 / 7;
+	letter-spacing: 0.25em;
+	margin-bottom: 10em;
+	line-height: 1.1em;
+	text-shadow: 3px 3px 6px #000;
+	}
+
+	.opening {
+	grid-column: 2 / 7;
+	}
+
+}
+
+@media (max-width: 600px) {
+	.marsp {
+		margin-bottom: 3em;
+		line-height: 1.1em;
+	}
+}
+
+
+
+
+
